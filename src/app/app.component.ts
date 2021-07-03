@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MetiisseCoreFrontEnd';
+  lastUpdate = new Promise<Date>(
+    (resolve, reject) => {
+      const date= new Date();
+      setTimeout(() =>{
+        resolve(date);
+      }, 1000);
+    }
+  );
 }

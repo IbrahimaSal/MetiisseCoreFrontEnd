@@ -1,0 +1,30 @@
+#main-container{
+    background-color:blue;
+    min-height:50vh;
+    max-height: max-content;
+    margin-top:5%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* flex-wrap: wrap;     */
+}
+#main-container-line{
+    min-height: 30%;
+    background-color:yellow;
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+}
+/* #selectionButtons{
+    width: 35% !important;
+    height: 100%;
+} */
+
+button{
+    width: 35%;
+}
+@media (max-width: 576px) { 
+    span{
+        display:none;
+    }
+ }

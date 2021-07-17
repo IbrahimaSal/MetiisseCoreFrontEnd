@@ -15,6 +15,7 @@ import { MainServicesComponent } from './main-services/main-services.component';
 import { MusiqueComponent } from './musique/musique.component';
 import { ClothesComponent } from './clothes/clothes.component';
 import { PhotosComponent } from './photos/photos.component';
+import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
 
 const appRoutes : Routes = [
   {path :'aboutMe', component : AboutMeComponent},
@@ -33,7 +34,8 @@ const appRoutes : Routes = [
     MainServicesComponent,
     MusiqueComponent,
     ClothesComponent,
-    PhotosComponent
+    PhotosComponent,
+    ImageGalleryComponent
   ],
   imports: [
     BrowserModule,
